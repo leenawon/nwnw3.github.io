@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>naoni</title>
+  <!-- <link rel="stylesheet" href="./style.css" -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="colors.js"></script>
+</head>
+<body>
+  <h1>실습</h1>
+  <ul>
+    <li> <a href="http://naver.com" >Naver</a> </li>
+    <li> <a href="http://chrome.com">Chrome</a> </li>
+  </ul>
+  <script>
+    var fruits = ["apple","banana","grape"];
+  </script>
+  <ol>
+    <script>
+    var i = 0;
+    while (i < fruits.length) {
+      document.write('<li>'+fruits[i]+'</li>');
+      i = i+1
+    }
+    </script>
+  </ol>
+  <input type="button" value="night" onclick="nightDay(this)"> <br>
+  <script>
+    function sum(left,right) {
+      return left*right;
+    }
+    document.write(sum(2,3)+"<br>");
+    document.write('<div style = "color:blue" >'+sum(2,3)+'</div>');
+    document.write('<div style = "font-size : 3em" >'+sum(2,3)+'</div>');
+  </script>
+</body>
+</html>
